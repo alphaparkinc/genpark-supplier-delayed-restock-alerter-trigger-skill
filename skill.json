@@ -1,0 +1,23 @@
+{
+  "name": "genpark-supplier-delayed-restock-alerter-trigger-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Supplier restock milestone delay alerter trigger.",
+  "author": "genpark",
+  "category": "logistics",
+  "tags": [
+    "logistics",
+    "delay"
+  ],
+  "inputs": {
+    "transit_days": {
+      "type": "integer"
+    }
+  },
+  "outputs": {
+    "is_delayed": {
+      "type": "boolean"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
